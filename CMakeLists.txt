@@ -27,7 +27,7 @@ add_subdirectory(src)
 add_subdirectory(test)
 
 enable_testing()
-add_test(NAME "ID Test" COMMAND id_test)
+add_test(NAME "test_id" COMMAND test_id)
 
 # Generate Doxygen documentation.
 set(DOXYGEN_CONFIG_FILE Doxyfile.d)
